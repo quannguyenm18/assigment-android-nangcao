@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/registration"
+        android:icon="@drawable/studenticon"
+        android:title="@string/source"/>
+    <item android:id="@+id/mysourse"
+        android:icon="@drawable/study"
+        android:title="@string/registration"/>
+
+</menu>

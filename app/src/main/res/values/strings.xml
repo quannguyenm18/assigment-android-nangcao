@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hỗ Trợ Học Tập</string>
+    <string name="api_key">AIzaSyCgHaKXcJoa4OiufioyxaS1P22oGfwPd0w</string>
+    <string name="facebook_app_id">516785416300212</string>
+    <string name="fb_login_protocol_scheme">fb516785416300212</string>
+    <string name="source">Registration</string>
+    <string name="registration">My Source</string>
+    <string name="tool_bar">HoTroHocTap</string>
+
+</resources>

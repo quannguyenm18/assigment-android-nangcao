@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/linearLayout"
+    android:padding="8dp"
+    android:background="@color/white"
+    android:layout_margin="8dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/courseitem"
+        android:layout_weight="0"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+      <LinearLayout
+
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+          <TextView
+              android:text="Mã Môn :"
+              android:textSize="12dp"
+              android:textColor="@color/black"
+              android:layout_width="90dp"
+              android:layout_height="wrap_content"/>
+          <TextView
+              android:text="JavaScripts"
+              android:textColor="@color/black"
+              android:textSize="12dp"
+              android:id="@+id/tv_monhoc"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+      </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Lớp :      "
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_width="90dp"/>
+            <TextView
+                android:id="@+id/tvlophoc"
+                android:text="PT13352"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Ngày Thi :      "
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_width="90dp"/>
+            <TextView
+                android:id="@+id/tvNgayThi"
+                android:text="12-1-2012"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Kì Học :      "
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_width="90dp"/>
+            <TextView
+                android:id="@+id/tv_kihoc"
+                android:text="Fall 2021"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Lịch Học :      "
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_width="90dp"/>
+            <TextView
+                android:id="@+id/tv_lichHoc"
+                android:text="lịch"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:src="@drawable/dl"
+        android:layout_weight="0.2"
+        android:layout_width="50dp"
+        android:id="@+id/img_dl"
+        android:layout_gravity="center"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
